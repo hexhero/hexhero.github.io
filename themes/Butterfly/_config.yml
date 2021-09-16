@@ -227,7 +227,7 @@ valine:
 # ------------------------------------
 since: 2019
 
-footer_custom_text: Hi, welcome to my <a href="http://yangb.cf/">blog</a>!
+footer_custom_text: Hi, welcome to my <a href="http://yangb92.github.io/">blog</a>!
 
 footer_copyright:
   enable: true
@@ -426,9 +426,7 @@ subtitle:
   source: false
   # (如果有英文逗號' , '，請使用轉義字符 &#44;)
   sub:
-    - 无恒产而有恒心者，惟士为能。
-    - 若民，则无恒产，因无恒心。苟无恒心，放辟邪侈，无不为已。
-    - 及陷于罪，然后从而刑之，是罔民也。
+    - 给时光以生命  而不是给生命以时光
 
 
 ####    側邊欄    ####
@@ -446,7 +444,7 @@ aside:
 
 # 網站公告
 announcement:
-  content: 天 之 道 ，不 争 而 善 胜 ， 不 言 而 善 应 ，不 召 而 自 来 ， 繟 然 而 善 谋 。
+  content: 给时光以生命，而不是给生命以时光。
 
 # busuanzi count for PV / UV in site
 # 訪問人數
