@@ -227,7 +227,7 @@ valine:
 # ------------------------------------
 since: 2019
 
-footer_custom_text: Hi, welcome to my <a href="http://yangb.cf/">blog</a>!
+footer_custom_text: Hi, welcome to my <a href="http://yangb92.github.io/">blog</a>!
 
 footer_copyright:
   enable: true
@@ -426,11 +426,7 @@ subtitle:
   source: false
   # (如果有英文逗號' , '，請使用轉義字符 &#44;)
   sub:
-    - 无为名尸，无为谋府，无为事任，无为知主。
-    - 体尽无穷，而游无朕。
-    - 尽其所受乎天，而无见得，亦虚而已。
-    - 至人用心若镜，不将不迎，应而不藏。
-    - 故能胜物而不伤。
+    - 给时光以生命  而不是给生命以时光
 
 
 ####    側邊欄    ####
@@ -448,7 +444,7 @@ aside:
 
 # 網站公告
 announcement:
-  content: 天 之 道 ，不 争 而 善 胜 ， 不 言 而 善 应 ，不 召 而 自 来 ， 繟 然 而 善 谋 。
+  content: 给时光以生命，而不是给生命以时光。
 
 # busuanzi count for PV / UV in site
 # 訪問人數
