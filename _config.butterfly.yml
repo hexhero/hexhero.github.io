@@ -96,7 +96,7 @@ index_img: ''
 
 # If the banner of page not setting, it will show the top_img
 # https://images.unsplash.com/photo-1638399777091-5b50ce3291f0?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHxjb2xsZWN0aW9uaWR8fHx8fHx8MTYzOTczNDU4NQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600
-default_top_img: 'https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+default_top_img: 'https://lab.ixk.me/api/bing/'
 
 # The banner image of archive page
 archive_img: 'https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
