@@ -4,7 +4,7 @@
 
 # Site
 title: WISDOM 札记
-subtitle: 看人之短， 天下无一可交之人； 看人之长， 世间一切尽是吾师；
+subtitle: 理性将是自我这一匹桀骜不驯的欲望与情感的烈马骑手
 description: 实事求是
 keywords: 理性将是自我这一匹桀骜不驯的欲望与情感的烈马骑手
 author: 杨斌
@@ -45,13 +45,13 @@ permalink_defaults:
 # Custom Setting Start
 
 # Site settings
-SEOTitle: 学而为人
+SEOTitle: 学为好人
 email: 523084685@qq.com
 keyword: "read book winsdom"
-header-img: img/header_img/lml_bg.jpg
+header-img: img/header_img/archive_bg3.jpg
 
 # 文章图片
-archives-img: img/header_img/archive_bg3.jpg
+archives-img: img/header_img/lml_bg.jpg
 
 # Favicon settings
 favicon: img/avatar/avatar_tj.png
@@ -73,7 +73,7 @@ github_username: yangb92
 # instagram_username: v_vincen_
 # facebook_username:  yourAccount
 # linkedin_username:  yourAccount
-# zhihu_username: WVincen
+zhihu_username: yang-bin-87-97
 # weibo_username: WVincen
 
 
