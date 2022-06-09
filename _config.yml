@@ -51,14 +51,14 @@ keyword: "read book winsdom"
 header-img: img/header_img/lml_bg.jpg
 
 # 文章图片
-archives-img: img/header_img/archive_bg2.jpg
+archives-img: img/header_img/archive_bg3.jpg
 
 # Favicon settings
 favicon: img/avatar/avatar_tj.png
 
 
-# Signature Setup
-signature: true # show signature
+# 签名设置
+signature: false # show signature
 signature-img: img/signature/vincent-white.png
 
 
