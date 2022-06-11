@@ -38,7 +38,7 @@ permalink_defaults:
 
 # jsdelivr:
 #   jsdelivr_url: https://cdn.jsdelivr.net/gh/
-#   github_username: V-Vincen
+#   github_username: yangb92
 
 
 # Custom Setting Start
@@ -101,7 +101,10 @@ featured-condition-size: 0    # A tag will be featured if the size of it is more
 
 ## Friends
 friends: [
-
+    {
+      title: "Notes",
+      href: "/notes"
+    }
 ]
 
 

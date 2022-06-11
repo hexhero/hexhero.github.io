@@ -1,8 +1,8 @@
 ---
 layout: "about"
 title: "About"
-date: 2016-04-21 04:48:33
-description: "学而为人"
+date: 2019-10-21 04:48:33
+description: "学为好人"
 header-img: "img/header_img/archive_bg2.jpg"
 ---
 
