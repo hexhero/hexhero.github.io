@@ -116,6 +116,10 @@
     
 
     
+      <!-- gitment start -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/default.css"/>
+      <!-- gitment end -->
+    
 
     
   
@@ -137,7 +141,7 @@
   <link rel="canonical" href="https://yangb92.github.io/简明语言哲学/">
   <title>
     
-      简明语言哲学 - 陈嘉映 - 学为好人
+      语言哲学 - 学为好人
     
   </title>
 <meta name="generator" content="Hexo 5.4.2"></head>
@@ -381,8 +385,8 @@
               <a class="tag" href="/tags/#哲学" title="哲学">哲学</a>
               
             </div>
-            <h1>简明语言哲学 - 陈嘉映</h1>
-            <h2 class="subheading"></h2>
+            <h1>语言哲学</h1>
+            <h2 class="subheading">《简明语言哲学》·陈嘉映</h2>
             <span class="meta">
               Posted by 杨斌 on
               2022-02-21
@@ -816,7 +820,7 @@
           
           
           <li class="next">
-            <a href="/逻辑学导论/" data-toggle="tooltip" data-placement="top" title="逻辑学导论 - [美] 欧文·M·柯匹">Next Post &rarr;</a>
+            <a href="/逻辑学导论/" data-toggle="tooltip" data-placement="top" title="逻辑学">Next Post &rarr;</a>
           </li>
           
         </ul>
@@ -865,7 +869,7 @@
       </a>
     </li>
     <li class="social-share-li">
-      <a target="_blank" class="social-share-icon" href="mailto:?subject=简明语言哲学 - 陈嘉映&body=Hi,I found this website and thought you might like it https://yangb92.github.io/简明语言哲学/">
+      <a target="_blank" class="social-share-icon" href="mailto:?subject=语言哲学&body=Hi,I found this website and thought you might like it https://yangb92.github.io/简明语言哲学/">
         <i class="fa fa-envelope fa-1x" aria-hidden="true"></i>
       </a>
     </li>
@@ -885,6 +889,61 @@
 
 
 <!-- 2. gitment comment -->
+
+  <!-- gitment start -->
+  <!-- Docs:https://github.com/imsun/gitment -->
+
+  <div id="blog_comments"></div>
+  <!-- <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css"> <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script> -->
+
+  <script src="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/gitment.browser.js"></script>
+
+  <script>
+    const myTheme = {
+      render(state, instance) {
+        const container = document.createElement('div')
+        container.lang = "en-US"
+        container.className = 'gitment-container gitment-root-container'
+
+        // your custom component
+        container.appendChild(instance.renderSomething(state, instance))
+        container.appendChild(instance.renderHeader(state, instance))
+        container.appendChild(instance.renderEditor(state, instance))
+        container.appendChild(instance.renderComments(state, instance))
+        container.appendChild(instance.renderFooter(state, instance))
+        return container
+      },
+      renderSomething(state, instance) {
+        const container = document.createElement('div')
+        container.lang = "en-US"
+        container.className = 'hello_visitor'
+        if (state.user.login) {
+          container.innerText = `Hello ${state.user.login}, Welcome to comment system`
+        }
+        return container
+      }
+    }
+
+    const gitment = new Gitment({
+      id: 'Mon Feb 21 2022 00:00:00 GMT+0800', // optional
+      owner: 'yangb92',
+      repo: 'yangb92.github.io',
+      oauth: {
+        client_id: '5c556a54a7247b9bb8b0',
+        client_secret: 'cd054b194b1d895646cc6103bda669a7b24a9bd8'
+      },
+      desc: '',
+      perPage: '10',
+      maxCommentHeight: '250',
+      theme: myTheme,
+      // ... For more available options, check out the documentation below
+    })
+
+    gitment.render('blog_comments')
+    // or gitment.render(document.getElementById('comments')) or document.body.appendChild(gitment.render())
+  </script>
+
+  <!-- gitment end -->
 
 
 <!-- 3. disqus comment -->
