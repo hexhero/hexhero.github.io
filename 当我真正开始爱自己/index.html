@@ -149,7 +149,7 @@
 
 <!-- hack iOS CSS :active style -->
 
-	<body ontouchstart="" class="body--light body--light">
+	<body ontouchstart="" class="body--light body--dark">
 
 
 		<!-- ThemeColor -->
@@ -183,7 +183,7 @@
       ? b.pop()
       : '';
   }
-  let themeMode = 'light';
+  let themeMode = 'dark';
   if (getCookieValue('sb-color-mode') && (getCookieValue('sb-color-mode') !== themeMode)) {
     let dbody = document.body.classList;
     themeMode === 'dark' ? dbody.remove('body--dark') : dbody.add('body--dark');
@@ -461,7 +461,7 @@
       <!-- Post Container -->
       <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
 
-        <h1><strong>As I Began to Love Myself</strong></h1>
+        <h1>As I Began to Love Myself</h1>
 <h2 id="当我真正开始爱自己">当我真正开始爱自己</h2>
 <p><strong>As I began to love myself I found that anguish and emotional suffering are only warning signs that I was living against my own truth. Today, I know, this is AUTHENTICITY.</strong></p>
 <p>当我真正开始爱自己，我才意识到，所有的痛苦和情感的折磨，仅仅是在提醒，我的生活背离了真实的自己。今日，我明白，这叫做「真实」。</p>
