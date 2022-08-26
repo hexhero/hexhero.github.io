@@ -1,3 +1,3 @@
 git add . & git commit -m 'auto' &
-git push origin livemylife &
+git push &
 hexo g & hexo d & hexo s

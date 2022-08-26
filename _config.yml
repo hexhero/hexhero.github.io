@@ -297,7 +297,7 @@ viewer: true
 # ThemeColor config
 themecolor:
   enable: true
-  mode: light # themecolor mode light or dark, default light
+  mode: dark # themecolor mode light or dark, default light
 
 
 # Mouseclick config
