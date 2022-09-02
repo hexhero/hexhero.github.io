@@ -498,13 +498,16 @@ As I began to love myself I found that anguish and emotional suffering are only 
       Philosophy - A Historical Survey with Essential Readings
     </h3>
     <div class="post-content-preview">
-      西方哲学作者: (美) 撒穆尔·伊诺克·斯通普夫 / (美) 詹姆斯·菲泽
+      西方哲学
+作者: (美) 撒穆尔·伊诺克·斯通普夫 / (美) 詹姆斯·菲泽
 原作名：Philosophy: A Historical Survey with Essential Readings
-哲学理论伊壁鸠鲁主义
+哲学理论
+伊壁鸠鲁主义
+
 又称快乐主义
 创始人：伊比鸠鲁
 
-人类生活的主要目的是快乐。快乐不等于放纵，人的本性所寻求的终极的快乐是宁静(repose)。伊壁鸠鲁所说的宁静指的是身体的无痛苦和心灵的淡泊松......
+人类生活的主要目的是快乐。快乐不等于放纵，人的本性所寻求的终极的快乐是宁静(repose)。伊壁鸠鲁所说的宁静指的是身体的无痛苦和心灵的......
     </div>
   </a>
   
@@ -1596,5 +1599,20 @@ start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </scrip
 
 
 		
-	</body>
+	<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>
