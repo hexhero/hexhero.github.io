@@ -457,27 +457,22 @@
       <!-- Post Container -->
       <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
 
-        <h2 id="摘要">摘要</h2>
-<p>版本号的格式为 X.Y.Z(又称 Major.Minor.Patch)，递增的规则为：</p>
+        <h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>版本号的格式为 X.Y.Z(又称 Major.Minor.Patch)，递增的规则为：</p>
 <ul>
 <li>X 表示主版本号，当 API 的兼容性变化时，X 需递增。</li>
 <li>Y 表示次版本号，当增加功能时(不影响 API 的兼容性)，Y 需递增。</li>
 <li>Z 表示修订号，当做 Bug 修复时(不影响 API 的兼容性)，Z 需递增。</li>
 </ul>
 <blockquote>
-<p>常用操作: 增加新功能 Y+1, 修复Bug Z+1</p>
+<p>常用操作: 增加新功能 Y+1, 修复Bug Z+1 </p>
 </blockquote>
-<h2 id="详细规则">详细规则</h2>
-<ul>
+<h2 id="详细规则"><a href="#详细规则" class="headerlink" title="详细规则"></a>详细规则</h2><ul>
 <li>X, Y, Z 必须为非负整数，且不得包含前导零，必须按数值递增，如 1.9.0 -&gt; 1.10.0 -&gt; 1.11.0</li>
 <li>0.Y.Z 的版本号表明软件处于初始开发阶段，意味着 API 可能不稳定；1.0.0 表明版本已有稳定的 API</li>
 <li>先行版本号(Pre-release)意味该版本不稳定，可能存在兼容性问题，其格式为：X.Y.Z.[a-c][正整数]，如 1.0.0.a1，1.0.0.b99，1.0.0.c1000。</li>
 </ul>
-<p>常见修饰词:</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">alpha：内部版本</span><br><span class="line">beta：测试版</span><br><span class="line">demo：演示版</span><br><span class="line">enhance：增强版</span><br><span class="line"><span class="keyword">free</span>：自由版</span><br><span class="line"><span class="keyword">full</span> version：完整版，即正式版</span><br><span class="line">lts：长期维护版本</span><br><span class="line"><span class="keyword">release</span>：发行版</span><br><span class="line">rc：即将作为正式版发布</span><br><span class="line">standard：标准版</span><br><span class="line">ultimate：旗舰版</span><br><span class="line">upgrade：升级版</span><br></pre></td></tr></table></figure>
-<h2 id="FAQ">FAQ</h2>
-<h4 id="如何判断发布-1-0-0-版本的时机？">如何判断发布 1.0.0 版本的时机？</h4>
-<p>当你的软件被用于正式环境，它应该已经达到了 1.0.0 版。如果你已经有个稳定的 API 被使用者依赖，也会是 1.0.0 版。如果你很担心向下兼容的问题，也应该算是 1.0.0 版了。</p>
+<p>常见修饰词:<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">alpha：内部版本</span><br><span class="line">beta：测试版</span><br><span class="line">demo：演示版</span><br><span class="line">enhance：增强版</span><br><span class="line"><span class="keyword">free</span>：自由版</span><br><span class="line"><span class="keyword">full</span> version：完整版，即正式版</span><br><span class="line">lts：长期维护版本</span><br><span class="line"><span class="keyword">release</span>：发行版</span><br><span class="line">rc：即将作为正式版发布</span><br><span class="line">standard：标准版</span><br><span class="line">ultimate：旗舰版</span><br><span class="line">upgrade：升级版</span><br></pre></td></tr></table></figure></p>
+<h2 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a>FAQ</h2><h4 id="如何判断发布-1-0-0-版本的时机？"><a href="#如何判断发布-1-0-0-版本的时机？" class="headerlink" title="如何判断发布 1.0.0 版本的时机？"></a>如何判断发布 1.0.0 版本的时机？</h4><p>当你的软件被用于正式环境，它应该已经达到了 1.0.0 版。如果你已经有个稳定的 API 被使用者依赖，也会是 1.0.0 版。如果你很担心向下兼容的问题，也应该算是 1.0.0 版了。</p>
 
 
         <hr>
