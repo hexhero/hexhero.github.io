@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: WISDOM 札记
-subtitle: Metaphysics 
-description: 实事求是
+title: 落落闲情
+subtitle: 曲径通幽处 悠然见南山
+description: 明性情自真 全在不言中
 author: 杨斌
 timezone: Asia/Shanghai
 
@@ -44,16 +44,16 @@ permalink_defaults:
 # Custom Setting Start
 
 # Site settings
-SEOTitle: 学为好人
+SEOTitle: 月亮湾
 email: 523084685@qq.com
-keyword: "read book winsdom"
-header-img: img/header_img/header3.jpg
+keyword: "博客 blog"
+header-img: img/header_img/archive_bg3.jpg
 
 # 文章图片
 archives-img: img/header_img/archive_bg5.jpg
 
 # Favicon settings
-favicon: img/avatar/avatar_tj.png
+favicon: img/avatar/avatar.png
 
 
 # 签名设置
@@ -79,14 +79,14 @@ notes: /notes
 
 # Sidebar Settings
 sidebar: true   # whether or not using Sidebar.
-sidebar-about-description: "汪"
-sidebar-avatar: img/avatar/cat.jpg    # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "明性情自真 全在不言中"
+sidebar-avatar: img/avatar/leo1.jpg    # use absolute URL, seeing it's used in both `/` and `/about/`
 widgets:
-- visitor   # busuanzi: https://busuanzi.ibruce.info/
-- featured-tags
-- short-about
+# - visitor   # busuanzi: https://busuanzi.ibruce.info/
+# - featured-tags
+# - short-about
 - recent-posts
-- friends-blog
+# - friends-blog
 - archive
 - category
 
@@ -297,7 +297,7 @@ viewer: true
 # ThemeColor config
 themecolor:
   enable: true
-  mode: dark # themecolor mode light or dark, default light
+  mode: light # themecolor mode light or dark, default light
 
 
 # Mouseclick config
